@@ -1,0 +1,151 @@
+.experience {
+    padding: var(--section-padding);
+    background: var(--bg-primary);
+}
+
+.experience-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 40px;
+}
+
+.subsection-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--text-primary);
+}
+
+.subsection-title svg {
+    color: var(--accent-primary);
+}
+
+.experience-card {
+    margin-bottom: 30px;
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.experience-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 5px;
+}
+
+.experience-company {
+    font-size: 1.1rem;
+    color: var(--accent-primary);
+    font-weight: 500;
+}
+
+.experience-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: right;
+}
+
+.experience-location,
+.experience-period {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9rem;
+    color: var(--text-tertiary);
+}
+
+.experience-points {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.experience-points li {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+}
+
+.check-icon {
+    color: var(--accent-primary);
+    flex-shrink: 0;
+    margin-top: 5px;
+}
+
+.experience-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.experience-side>div {
+    margin-bottom: 40px;
+}
+
+.achievements-list,
+.certificates-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.achievement-card,
+.certificate-card {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.achievement-icon,
+.certificate-icon {
+    font-size: 2rem;
+    flex-shrink: 0;
+}
+
+.achievement-title,
+.certificate-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 5px;
+}
+
+.achievement-description {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+.certificate-issuer {
+    font-size: 0.9rem;
+    color: var(--accent-primary);
+}
+
+@media (max-width: 968px) {
+    .experience-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .experience-header {
+        flex-direction: column;
+    }
+
+    .experience-meta {
+        text-align: left;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
