@@ -32,13 +32,13 @@ const Hero = () => {
                         <a href="tel:+917055479404" className="social-link" aria-label="Phone">
                             <FaPhone />
                         </a>
-                        <a href="https://linkedin.com/in/aryan-tyagi202" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="LinkedIn">
+                        <a href="https://www.linkedin.com/in/aryantyagi-/" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="LinkedIn">
                             <FaLinkedin />
                         </a>
-                        <a href="https://github.com/aryan-tyagi202" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="GitHub">
+                        <a href="https://github.com/Lonewolf-0" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="GitHub">
                             <FaGithub />
                         </a>
-                        <a href="https://leetcode.com/aryan-tyagi202" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="LeetCode">
+                        <a href="https://leetcode.com/u/lonewolf-0/" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="LeetCode">
                             <SiLeetcode />
                         </a>
                     </div>

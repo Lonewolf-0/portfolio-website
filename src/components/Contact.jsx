@@ -23,9 +23,9 @@ const Contact = () => {
     ];
 
     const socialLinks = [
-        { icon: <FaLinkedin />, label: 'LinkedIn', link: 'https://linkedin.com/in/aryan-tyagi202' },
-        { icon: <FaGithub />, label: 'GitHub', link: 'https://github.com/aryan-tyagi202' },
-        { icon: <SiLeetcode />, label: 'LeetCode', link: 'https://leetcode.com/aryan-tyagi202' },
+        { icon: <FaLinkedin />, label: 'LinkedIn', link: 'https://www.linkedin.com/in/aryantyagi-/' },
+        { icon: <FaGithub />, label: 'GitHub', link: 'https://github.com/Lonewolf-0' },
+        { icon: <SiLeetcode />, label: 'LeetCode', link: 'https://leetcode.com/u/lonewolf-0/' },
     ];
 
     return (

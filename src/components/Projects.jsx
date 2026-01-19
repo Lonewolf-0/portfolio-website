@@ -14,6 +14,7 @@ const Projects = () => {
                 'Service discovery using Eureka',
                 'React-based modern frontend',
             ],
+            github: 'https://github.com/Lonewolf-0/quiz-platform',
             gradient: 'gradient-1',
         },
         {
@@ -27,6 +28,8 @@ const Projects = () => {
                 'JWT-based authentication',
                 'Admin controls and dashboard',
             ],
+            github: 'https://github.com/Lonewolf-0/e-learning',
+            link: 'https://e-learning-kxzr.onrender.com',
             gradient: 'gradient-2',
         },
         {
@@ -40,7 +43,8 @@ const Projects = () => {
                 'Collaborative editing support',
                 'Responsive web interface',
             ],
-            link: '#',
+            github: 'https://github.com/Lonewolf-0/realtime-editor',
+            link: 'https://realtime-editor-thqg.onrender.com/',
             gradient: 'gradient-3',
         },
     ];
@@ -82,9 +86,11 @@ const Projects = () => {
                                         <FaExternalLinkAlt /> Live Demo
                                     </a>
                                 )}
-                                <a href="#" className="project-link">
-                                    <FaGithub /> View Code
-                                </a>
+                                {project.github && (
+                                    <a href={project.github} target="_blank" rel="noopener noreferrer" className="project-link">
+                                        <FaGithub /> View Code
+                                    </a>
+                                )}
                             </div>
 
                             <div className="project-glow"></div>
