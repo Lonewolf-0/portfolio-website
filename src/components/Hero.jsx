@@ -48,7 +48,7 @@ const Hero = () => {
                             View My Work
                         </Link>
                         <a
-                            href="YOUR_GOOGLE_DRIVE_LINK_HERE"
+                            href="https://drive.google.com/drive/folders/1NE0Bqx6zupbnNLoosIBfzK6PAmvljnYf?usp=sharing"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="btn btn-resume"
