@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FaEnvelope, FaPhone, FaLinkedin, FaGithub, FaPaperPlane, FaMapMarkerAlt } from 'react-icons/fa';
+import { FaEnvelope, FaPhone, FaLinkedin, FaGithub, FaPaperPlane, FaMapMarkerAlt, FaCode } from 'react-icons/fa';
 import { SiLeetcode } from 'react-icons/si';
 import './Contact.css';
 
@@ -26,6 +26,7 @@ const Contact = () => {
         { icon: <FaLinkedin />, label: 'LinkedIn', link: 'https://www.linkedin.com/in/aryantyagi-/' },
         { icon: <FaGithub />, label: 'GitHub', link: 'https://github.com/Lonewolf-0' },
         { icon: <SiLeetcode />, label: 'LeetCode', link: 'https://leetcode.com/u/lonewolf-0/' },
+        { icon: <FaCode />, label: 'Codolio', link: 'https://codolio.com/profile/lonewolf' },
     ];
 
     return (

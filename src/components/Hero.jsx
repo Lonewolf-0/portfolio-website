@@ -1,5 +1,5 @@
 import { Link } from 'react-scroll';
-import { FaLinkedin, FaGithub, FaEnvelope, FaPhone, FaChevronDown, FaDownload } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaEnvelope, FaPhone, FaChevronDown, FaDownload, FaCode } from 'react-icons/fa';
 import { SiLeetcode } from 'react-icons/si';
 import './Hero.css';
 
@@ -40,6 +40,9 @@ const Hero = () => {
                         </a>
                         <a href="https://leetcode.com/u/lonewolf-0/" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="LeetCode">
                             <SiLeetcode />
+                        </a>
+                        <a href="https://codolio.com/profile/lonewolf" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Codolio">
+                            <FaCode />
                         </a>
                     </div>
 
