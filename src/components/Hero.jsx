@@ -1,6 +1,7 @@
 import { Link } from 'react-scroll';
 import { FaLinkedin, FaGithub, FaEnvelope, FaPhone, FaChevronDown, FaDownload, FaCode } from 'react-icons/fa';
 import { SiLeetcode } from 'react-icons/si';
+import resumePdf from '../assets/AryanTyagi.pdf';
 import './Hero.css';
 
 const Hero = () => {
@@ -51,9 +52,8 @@ const Hero = () => {
                             View My Work
                         </Link>
                         <a
-                            href="https://drive.google.com/drive/folders/1NE0Bqx6zupbnNLoosIBfzK6PAmvljnYf?usp=sharing"
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            href={resumePdf}
+                            download="AryanTyagi_Resume.pdf"
                             className="btn btn-resume"
                         >
                             <FaDownload /> Resume
