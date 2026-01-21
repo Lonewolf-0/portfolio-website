@@ -53,7 +53,8 @@ const Hero = () => {
                         </Link>
                         <a
                             href={resumePdf}
-                            download="AryanTyagi_Resume.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="btn btn-resume"
                         >
                             <FaDownload /> Resume
