@@ -43,10 +43,10 @@ const About = () => {
                 <div className="about-content">
                     <div className="about-text">
                         <p className="about-intro">
-                            I'm a passionate <span className="highlight">Full Stack Developer</span> with a strong foundation
-                            in both frontend and backend technologies. Currently pursuing my Post Graduation Diploma in
-                            Advanced Computing from CDAC Pune, I'm dedicated to building scalable, efficient, and
-                            user-friendly applications.
+                            I'm a <span className="highlight">Backend-focused Software Engineer</span> with hands-on experience
+                            building Spring Boot microservices, JWT-secured APIs, and scalable full-stack applications. Currently
+                            pursuing my Post Graduation Diploma in Advanced Computing from CDAC Pune, I'm dedicated to building
+                            robust, efficient, and production-ready systems.
                         </p>
                         <p className="about-description">
                             With experience in <span className="highlight">Spring Boot</span>, <span className="highlight">React</span>,

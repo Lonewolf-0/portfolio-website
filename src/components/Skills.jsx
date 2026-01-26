@@ -2,8 +2,8 @@ import {
     FaJava, FaReact, FaNodeJs, FaDocker, FaAws, FaGit, FaLinux, FaPython, FaDatabase
 } from 'react-icons/fa';
 import {
-    SiSpringboot, SiMongodb, SiMysql, SiJavascript, SiTypescript, SiCplusplus,
-    SiDotnet, SiPostman, SiGooglecloud
+    SiSpringboot, SiSpringsecurity, SiMongodb, SiMysql, SiPostgresql, SiJavascript, SiCplusplus,
+    SiPostman, SiGooglecloud
 } from 'react-icons/si';
 import './Skills.css';
 
@@ -13,25 +13,32 @@ const Skills = () => {
             title: 'Programming Languages',
             skills: [
                 { name: 'Java', icon: <FaJava /> },
+                { name: 'Python', icon: <FaPython /> },
                 { name: 'JavaScript', icon: <SiJavascript /> },
                 { name: 'C/C++', icon: <SiCplusplus /> },
-                { name: 'Python', icon: <FaPython /> },
-                { name: 'C#', icon: <SiDotnet /> },
             ],
         },
         {
-            title: 'Frameworks & Libraries',
+            title: 'Backend Technologies',
             skills: [
                 { name: 'Spring Boot', icon: <SiSpringboot /> },
+                { name: 'Spring Security', icon: <SiSpringsecurity /> },
+                { name: 'REST APIs', icon: <FaDatabase /> },
+                { name: 'JWT', icon: <FaDatabase /> },
+                { name: 'Microservices', icon: <FaDatabase /> },
+            ],
+        },
+        {
+            title: 'Frontend & Runtime',
+            skills: [
                 { name: 'React.js', icon: <FaReact /> },
                 { name: 'Node.js', icon: <FaNodeJs /> },
-                { name: 'Express.js', icon: <FaNodeJs /> },
-                { name: '.NET Core', icon: <SiDotnet /> },
             ],
         },
         {
             title: 'Databases',
             skills: [
+                { name: 'PostgreSQL', icon: <SiPostgresql /> },
                 { name: 'MySQL', icon: <SiMysql /> },
                 { name: 'MongoDB', icon: <SiMongodb /> },
             ],

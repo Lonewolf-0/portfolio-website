@@ -19,11 +19,11 @@ const Hero = () => {
                     <p className="hero-greeting">Hello, I'm</p>
                     <h1 className="hero-name">Aryan Tyagi</h1>
                     <h2 className="hero-title">
-                        <span className="typing-text">Full Stack Developer</span>
+                        <span className="typing-text">Backend Developer</span>
                     </h2>
                     <p className="hero-description">
-                        Passionate about building scalable web applications with modern technologies.
-                        Specializing in Spring Boot, React, and cloud-native solutions.
+                        Backend-focused software engineer with hands-on experience building Spring Boot microservices,
+                        JWT-secured APIs, and scalable full-stack applications.
                     </p>
 
                     <div className="hero-social">

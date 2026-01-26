@@ -9,11 +9,10 @@ const Experience = () => {
             location: 'Gurugram, India',
             period: 'July 2024 - August 2024',
             description: [
-                'Developed and studied stock prediction apps that can predict stock prices using historical data from Yahoo Finance and Facebook Prophet.',
-                'In the app, users select a stock and prediction period (1-4 years), and the app downloads and caches the data, plots historical prices.',
-                'Used Prophet to predict and visualize future trends, offering CSV downloads of the data.',
+                'Built a stock price forecasting application using Facebook Prophet on 20 years of Yahoo Finance data, enabling 1–4 year predictions with interactive trend visualization and CSV exports.',
+                'Evaluated forecasting performance using RMSE and implemented efficient data fetching and caching logic to reduce repeated API calls and improve response time.',
             ],
-            technologies: ['Python', 'Facebook Prophet', 'Yahoo Finance API', 'Data Visualization', 'Machine Learning'],
+            technologies: ['Python', 'Facebook Prophet', 'Yahoo Finance API', 'RMSE', 'Data Visualization', 'Machine Learning'],
         },
     ];
 

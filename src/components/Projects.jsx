@@ -6,13 +6,13 @@ const Projects = () => {
         {
             title: 'Online Quiz Platform',
             description:
-                'A scalable quiz platform built with microservices architecture featuring centralized API routing, service discovery, and secure communication between services.',
-            technologies: ['Spring Boot', 'Spring Cloud', 'Eureka', 'Gateway', 'React', 'Microservices'],
+                'A microservices-based quiz platform with separate Auth, Quiz, and Attempt services using Spring Boot and Eureka, with JWT-based authentication and role-based authorization enforced at the API Gateway level.',
+            technologies: ['Spring Boot', 'Spring Cloud', 'Eureka', 'Gateway', 'React', 'PostgreSQL', 'JWT', 'Microservices'],
             features: [
-                'RESTful microservices architecture',
-                'Centralized API routing with Spring Cloud Gateway',
-                'Service discovery using Eureka',
-                'React-based modern frontend',
+                'Microservices architecture with Auth, Quiz, and Attempt services',
+                'JWT-based authentication and role-based authorization',
+                'Relational schemas in PostgreSQL for quizzes, questions, attempts, and users',
+                'Service discovery and centralized routing via API Gateway',
             ],
             github: 'https://github.com/Lonewolf-0/quiz-platform',
             gradient: 'gradient-1',
@@ -20,12 +20,12 @@ const Projects = () => {
         {
             title: 'E-Learning Platform',
             description:
-                'A full-stack e-learning platform with comprehensive course management, secure payment integration, and robust authentication system.',
+                'A full-stack e-learning platform using React (Vite) and Node.js for course management and user authentication with integrated secure payments.',
             technologies: ['React', 'Vite', 'Node.js', 'Razorpay API', 'JWT', 'MongoDB'],
             features: [
                 'Course management system',
-                'Razorpay payment integration',
-                'JWT-based authentication',
+                'Razorpay integration for secure payments',
+                'JWT-based authentication with admin-level access controls',
                 'Admin controls and dashboard',
             ],
             github: 'https://github.com/Lonewolf-0/e-learning',
@@ -35,12 +35,12 @@ const Projects = () => {
         {
             title: 'Realtime Code Editor',
             description:
-                'A collaborative code editor enabling real-time code sharing using WebSockets, perfect for pair programming sessions.',
+                'A real-time collaborative code editor enabling live, multi-user code sharing using WebSockets, with synchronized editing to support pair programming.',
             technologies: ['ReactJS', 'NodeJS', 'WebSockets', 'Socket.io'],
             features: [
                 'Real-time code synchronization',
-                'WebSocket-based live updates',
-                'Collaborative editing support',
+                'Live, multi-user code sharing',
+                'Synchronized editing for pair programming',
                 'Responsive web interface',
             ],
             github: 'https://github.com/Lonewolf-0/realtime-editor',
